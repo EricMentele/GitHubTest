@@ -25,7 +25,7 @@ export default function App() {
   }, []);
 
   const odyssey = useOdyssey({
-    apiKey,
+    apiKey: apiKey || 'pending',
     handlers: {
       onConnected: (stream) => {
         addLog('Connected — media stream ready');
