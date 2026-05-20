@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key>
+  <string>$(PRODUCT_NAME)</string>
+  <key>CFBundleDisplayName</key>
+  <string>Health Sync</string>
+  <key>CFBundleIdentifier</key>
+  <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>UILaunchScreen</key>
+  <dict/>
+  <key>NSLocalNetworkUsageDescription</key>
+  <string>Health Sync uses your local network to pull health data from your paired iPhone — nothing leaves your home.</string>
+  <key>NSApplicationServices</key>
+  <array>
+    <dict>
+      <key>NSApplicationServiceIdentifier</key>
+      <string>com.healthsync.local</string>
+      <key>NSApplicationServiceUsageDescription</key>
+      <string>Pair with your iPhone to display Health data on the big screen.</string>
+    </dict>
+  </array>
+</dict>
+</plist>

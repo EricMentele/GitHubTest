@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key>
+  <string>$(PRODUCT_NAME)</string>
+  <key>CFBundleDisplayName</key>
+  <string>Health Sync</string>
+  <key>CFBundleIdentifier</key>
+  <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>LSRequiresIPhoneOS</key>
+  <true/>
+  <key>UILaunchScreen</key>
+  <dict/>
+  <key>UIApplicationSceneManifest</key>
+  <dict>
+    <key>UIApplicationSupportsMultipleScenes</key>
+    <false/>
+  </dict>
+  <key>UISupportedInterfaceOrientations</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+  </array>
+  <key>NSHealthShareUsageDescription</key>
+  <string>Health Sync reads your activity, heart, sleep, and workout data to display it privately on your Apple TV. Data stays between this iPhone and your paired Apple TV.</string>
+  <key>NSHealthUpdateUsageDescription</key>
+  <string>Health Sync does not write to Health. This key is present only because the system requires it for some HealthKit configurations.</string>
+  <key>NSLocalNetworkUsageDescription</key>
+  <string>Health Sync uses your local network to send your health data directly to a paired Apple TV in your home — nothing is sent to a server.</string>
+  <key>NSApplicationServices</key>
+  <array>
+    <dict>
+      <key>NSApplicationServiceIdentifier</key>
+      <string>com.healthsync.local</string>
+      <key>NSApplicationServiceUsageDescription</key>
+      <string>Pair with your Apple TV to display Health data on the big screen.</string>
+    </dict>
+  </array>
+</dict>
+</plist>
